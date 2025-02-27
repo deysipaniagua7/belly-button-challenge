@@ -12,19 +12,11 @@ We had to complete 3 parts: Bar Chart, Bubble Chart, and Metadata and Deployment
 -Metadata and Deployment: We displayed the sample’s metadata (demographic info) by looping through each key-value pair from the metadata JSON object and creating a text string. WE also appended an html tag with that text to the #sample-metadata panel.
 All plots are updated when a new sample is selected. Finally we were asked to deploy the app to GitHub Pages.
 
-The main "belly-button-challenge" repo contains:
+The main "belly-button-challenge" repo contains an 1) "index.html" file to generate the horizontal bar chart/bubble chart and 2) a "samples.json" file which houses the dataset for the module hw.
 
--An "index.html" file which allows the charts/bubble map to be generated
+The ".vscode" subfolder contains a "settings.json" file.
 
--A "samples.json" file which contains the dataset for the module
-
-The ".vscode" subfolder contains:
-
--A "settings.json" file
-
--"app.js" file
-
-The "static/js" which contains the my javascript code
+The "static/js" subfolder contains a "app.js" file that houses my javascript code and a ".gitkeep" file.
 
 Please note, I used in-class activities/notes and the following resources to complete my assignments:
 
