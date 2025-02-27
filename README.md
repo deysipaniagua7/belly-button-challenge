@@ -12,7 +12,7 @@ We had to complete 3 parts: Bar Chart, Bubble Chart, and Metadata and Deployment
 -Metadata and Deployment: We displayed the sample’s metadata (demographic info) by looping through each key-value pair from the metadata JSON object and creating a text string. WE also appended an html tag with that text to the #sample-metadata panel.
 All plots are updated when a new sample is selected. Finally we were asked to deploy the app to GitHub Pages.
 
-The main "belly-button-challenge" repo contiains:
+The main "belly-button-challenge" repo contains:
 
 -An "index.html" file which allows the charts/bubble map to be generated
 
